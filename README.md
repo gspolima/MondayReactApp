@@ -1,7 +1,7 @@
 ## Environment Setup
-Clone the repository
-npm install -g expo-cli
-npm install
-Start android emulator (Pixel 4)
-npm start
-Open on Android (a)
+1. Clone the repository
+2. npm install -g expo-cli
+3. npm install
+4. Start android emulator (Pixel 4)
+5. npm start
+6. Open on Android (a)

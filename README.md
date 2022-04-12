@@ -5,3 +5,5 @@
 4. Start android emulator (Pixel 4)
 5. npm start
 6. Open on Android (a)
+
+7. Android ADB WLAN

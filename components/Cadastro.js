@@ -1,23 +1,17 @@
 import React from "react";
 import { Text, View, StyleSheet, Image, TextInput, Button } from "react-native";
 import { ImageBackground } from "react-native-web";
+import LogoEstacio from '../assets/logo-estacio.png';
 
 const image = { uri: "https://images.pexels.com/photos/8533218/pexels-photo-8533218.jpeg" };
-
+const logo = Image.resolveAssetSource(LogoEstacio).uri;
 
 const Cadastro = () => {
     return (
         <View style={styles.container}>
-            <ImageBackground
-                source={image} resizeMode="cover"
-            >
-
-            </ImageBackground>
             <Image
-                source={{
-                    uri: 'https://images.unsplash.com/photo-1517817748493-49ec54a32465',
-                }}
-                style={{ width  : 200, height: 200 }}
+                source={{uri: logo}}
+                style={{ width  : 250, height: 250 }}
             />
             <Text style={styles.title}>Cadastro</Text>
             <TextInput
@@ -52,7 +46,7 @@ const Cadastro = () => {
 const styles = StyleSheet.create({
     container: {
       flex: 1,
-      backgroundColor: '#fff',
+      backgroundColor: '#a6dbed',
       alignItems: 'center',
       justifyContent: 'center',
     },
